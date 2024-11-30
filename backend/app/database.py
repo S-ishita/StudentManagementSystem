@@ -1,7 +1,7 @@
 from motor.motor_asyncio import AsyncIOMotorClient
 from bson.objectid import ObjectId
 
-MONGO_DETAILS = "mongodb+srv://singhalishita016:Madhav251@studentmanagementsystem.5ep8k.mongodb.net/"
+MONGO_DETAILS = "mongodb+srv://singhalishita016:test@studentmanagementsystem.5ep8k.mongodb.net/"
 
 client = AsyncIOMotorClient(MONGO_DETAILS)
 database = client.students
